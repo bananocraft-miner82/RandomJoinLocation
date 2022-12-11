@@ -1,0 +1,12 @@
+name: RandomJoinLocation
+version: '${project.version}'
+main: miner82.minecraft.randomjoinlocation.RandomJoinLocation
+api-version: 1.19
+authors: [ Miner82 ]
+description: Gives the player a random join location within a radius of the world spawn on first joining
+commands:
+  rjl:
+    description: Used to configure the Random Join Location plugin.
+    usage: /rjl [set/get] [configtype] [required if setting:value]
+    permission: setconfig
+    permission-message: You do not have access to this command!

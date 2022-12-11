@@ -1,0 +1,5 @@
+ShowDebug: false
+MaximumSpawnRadius: 10000
+SpawnInBoatOnWater: true
+SpawnInBoatType: OAK
+MaxSearchXOnLava: 10
